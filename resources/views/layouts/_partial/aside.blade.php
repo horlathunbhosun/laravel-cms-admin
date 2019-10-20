@@ -100,13 +100,13 @@
                             <div class="collapse" id="navbar-users">
                                 <ul class="nav nav-sm flex-column">
                                 <li class="nav-item">
-                                    <a href="" class="nav-link">Create Users</a>
+                                    <a href="{{ route('users.create')}}" class="nav-link">Create Users</a>
                                 </li>
                                 <li class="nav-item">
                                         <a href="" class="nav-link">Edit Users</a>
                                 </li>
                                 <li class="nav-item">
-                                        <a href="" class="nav-link">List Users</a>
+                                        <a href="{{ route('users.index')}}" class="nav-link">List Users</a>
                                     </li>
                                 </ul>
                             </div>
@@ -119,14 +119,12 @@
                                 <div class="collapse" id="navbar-posts">
                                     <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="" class="nav-link">Create Users</a>
+                                        <a href="" class="nav-link">All Posts</a>
                                     </li>
                                     <li class="nav-item">
                                             <a href="" class="nav-link">Edit Users</a>
                                     </li>
-                                    <li class="nav-item">
-                                            <a href="" class="nav-link">List Users</a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </li>

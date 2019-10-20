@@ -48,12 +48,7 @@
                                 </a>
                             </td>
                         </tr>
-
-
-
-                        @endforeach
-
-
+                     @endforeach
                 @endif
 
                 </tbody>

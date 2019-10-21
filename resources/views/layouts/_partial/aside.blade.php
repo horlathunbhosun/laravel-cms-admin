@@ -106,7 +106,7 @@
                                         <a href="" class="nav-link">Edit Users</a>
                                 </li>
                                 <li class="nav-item">
-                                        <a href="{{ route('users.index')}}" class="nav-link">List Users</a>
+                                            <a href="{{ route('users.index')}}" class="nav-link">List Users</a>
                                     </li>
                                 </ul>
                             </div>
